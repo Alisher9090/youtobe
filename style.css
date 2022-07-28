@@ -1,0 +1,580 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.cantener
+{
+    width: 1100px;
+    height: 744px;
+    /* border: 2px solid red; */
+
+}
+
+.header
+{
+    width: 100%;
+    height: 60px;
+    /* outline: 2px solid blue; */
+    overflow: auto;
+}
+
+.left
+{
+    width: 250px;
+    height: 60px;
+    /* outline: 2px solid black; */
+    float: left;
+}
+
+.header .left button 
+{
+    font-size: 23px;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: grey;
+    background-color: white;
+    border: 0px;
+    float: left;
+    width: 30px;
+    height: 30px;
+    
+}
+
+.left img
+{
+    height: 30px;
+    width:100px;
+    margin: 15px 40px;
+    float: left;
+}
+
+.center
+{
+    width: 690px;
+    height: 60px;
+    margin-left: 300px;
+    /* outline: 2px solid lime; */
+    float: left;
+}
+
+.center input
+{
+    width: 545px;
+    height: 40px;
+    margin-top: 10px;
+    overflow: auto;
+    outline: 1px solid grey;
+    border: 0ch;
+}
+
+.center input::placeholder
+{
+    font-size: 18px;
+}
+
+.center button:nth-child(2)
+{
+    width: 60px;
+    height: 40px;
+    background-color: rgb(248,248,248);
+    float: right;
+    position: relative;
+    left: -85px;
+    top: 10px;
+    outline: 1px solid grey;
+    border: 0ch;
+}
+
+.center button i
+{
+    font-size: 18px;
+}
+
+.center button:nth-child(3)
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    color: black;
+    border: 0ch;
+    background-color: rgb(248,248,248);
+    float: right;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+.right
+{
+    width: 400px;
+    height: 60px;
+    float: right;
+    /* outline: 2px solid red; */
+}
+
+.right #photo
+{
+    width: 30px;
+    height: 20px;
+    margin-top: 13px;
+    margin-left: 230px;
+}
+
+.right #foto1
+{
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 22px;
+    height: 25px;
+    line-height: 100px;
+}
+
+.right button
+{
+    width: 40px;
+    height: 40px;
+    background-color: darkgreen;
+    border-radius: 100%;
+    border: 0ch;
+    position: relative;
+    top: -5px;
+    left: 20px;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.header2
+{
+    width: 1546px;
+    height: 45px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    margin-left: 130px;
+}
+
+.header2 button:nth-child(1) 
+{
+    width: 50px;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 150px ;
+    border-radius: 15px;  
+    background-color: rgb(242,242,242);
+    border: 2px solid rgb(217,217,217) ;
+    color: rgb(28,28,28);
+}
+
+.header2 button:nth-child(2)
+{
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;  
+    margin-left: 15px;
+    background-color: rgb(242,242,242);
+    border: 2px solid rgb(217,217,217) ;
+    color: rgb(28,28,28);
+}
+
+.header2 button:nth-child(3)
+{
+    width: 65px;
+    height: 30px;
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color: rgb(242,242,242);
+    border: 2px solid rgb(217,217,217) ;
+    color: rgb(28,28,28);
+}
+
+.header2 button:nth-child(4)
+{
+    width: 130px;
+    height: 30px;
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color: rgb(242,242,242);
+    border: 2px solid rgb(217,217,217) ;
+    color: rgb(28,28,28);
+}
+
+.header2 button:nth-child(5)
+{
+    width: 50px;
+    height: 30px;
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color: rgb(242,242,242);
+    border: 2px solid rgb(217,217,217) ;
+    color: rgb(28,28,28);
+}
+
+.header2 button:nth-child(6)
+{
+    width: 80px;
+    height: 30px;
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color: rgb(242,242,242);
+    border: 2px solid rgb(217,217,217) ;
+    color: rgb(28,28,28);
+}
+
+.header2 button:nth-child(7)
+{
+    width: 70px;
+    height: 30px;
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color: rgb(242,242,242);
+    border: 2px solid rgb(217,217,217) ;
+    color: rgb(28,28,28);
+}
+
+.header2 button:nth-child(8)
+{
+    width: 200px;
+    height: 30px;
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color: rgb(242,242,242);
+    border: 2px solid rgb(217,217,217) ;
+    color: rgb(28,28,28);
+}
+
+.header2 button:nth-child(9)
+{
+    width: 110px;
+    height: 30px;
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color: rgb(242,242,242);
+    border: 2px solid rgb(217,217,217) ;
+    color: rgb(28,28,28);
+}
+
+.header2 button:nth-child(10)
+{
+    width: 110px;
+    height: 30px;
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color: rgb(242,242,242);
+    border: 2px solid rgb(217,217,217) ;
+    color: rgb(28,28,28);
+}
+
+.header2 button:nth-child(11)
+{
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;  
+    margin-left: 15px;
+    background-color: rgb(242,242,242);
+    border: 2px solid rgb(217,217,217) ;
+    color: rgb(28,28,28);
+}
+
+.header2 button:nth-child(12)
+{
+    width: 150px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: -10px;
+    border-radius: 15px;
+    background-color: rgb(242,242,242);
+    border: 2px solid rgb(217,217,217) ;
+    color: rgb(28,28,28);
+}
+
+.header2 button:hover
+{
+    background-color: rgb(229,229,229);
+}
+
+.header2 button:focus
+{
+    background-color: rgb(3,3,3);
+    color: aliceblue;
+}
+
+.chap
+{
+    width: 270px;
+    height: 691px;
+    background-color: white;
+    margin-top: -50px; 
+    float: left;
+}
+
+.chap button:hover
+{
+    background-color: rgb(242,242,242);
+}
+
+.chap button:focus
+{
+    background-color: rgb(229,229,229);
+}
+
+.tepa
+{
+    width: 265px;
+    height: 175px;
+    border-bottom: 3px solid rgb(229,229,229);
+}
+
+.chap .home
+{
+    width: 265px;
+    height: 40px;
+    margin-top: 7px;
+    background-color: white;
+    border: 0ch;
+}
+
+img
+{
+    width: 30px;
+    height: 30px;
+    margin-left: -140px;
+}
+
+.home b
+{
+    color:black;
+    position: relative;
+    left: 30px;
+    top: -10px;
+    font-size: 15px;
+}
+
+.chap .composs
+{
+    width: 265px;
+    height: 40px;
+    background-color: white;
+    margin-top: -3px;
+    border: 0ch;
+}
+
+.composs img
+{
+    width: 30px;
+    height: 30px;
+    margin-left: -120px;
+}
+
+.composs b
+{
+    color:black;
+    position: relative;
+    left: 28px;
+    top: -10px;
+    font-size: 15px;
+}
+
+.shorts img
+{
+    width: 30px;
+    height: 30px;
+    margin-left: -150px;
+}
+
+.shorts b
+{
+    color:black;
+    position: relative;
+    left: 28px;
+    top: -10px;
+    font-size: 15px;   
+}
+
+.chap .shorts
+{
+    width: 265px;
+    height: 40px;
+    background-color: white;
+    margin-top: -3px;
+    border: 0ch;
+}
+
+.chap .obunachi 
+{
+    width: 265px;
+    height: 40px;
+    background-color: white;
+    margin-top: -3px;   
+    border: 0ch;
+}
+
+.obunachi img
+{
+    width: 30px;
+    height: 30px;
+    margin-left: -120px;
+}
+
+.obunachi b
+{
+    color:black;
+    position: relative;
+    left: 27px;
+    top: -10px;
+    font-size: 15px;
+}
+
+.tepa2 .library
+{
+    width: 265px;
+    height: 40px;
+    background-color: white;
+    margin-top: 15px;   
+    border: 0ch; 
+}
+
+.library img
+{
+    width: 25px;
+    height: 25px;
+    margin-left: -110px;
+}
+
+.library b
+{
+    color:black;
+    position: relative;
+    left: 30px;
+    top: -10px;
+    font-size: 15px;
+}
+
+.tepa2 .history
+{
+    width: 265px;
+    height: 40px;
+    background-color: white;
+    margin-top: 15px;   
+    border: 0ch; 
+}
+
+.history img
+{
+    width: 35px;
+    height: 35px;
+    margin-left: -140px;
+}
+
+.history b
+{
+    color:black;
+    position: relative;
+    left: 28px;
+    top: -13px;
+    font-size: 15px;
+}
+
+.views
+{
+    width: 265px;
+    height: 40px;
+    background-color: white;
+    margin-top: 15px;   
+    border: 0ch; 
+}
+
+.views img
+{
+    width: 33px;
+    height: 32px;
+    margin-left: -80px;
+    margin-top: -5px;
+}
+
+.views b
+{
+    color:black;
+    position: relative;
+    left: 26px;
+    top: -13px;
+    font-size: 15px;
+}
+.center2
+{
+    width: 1800px;
+    height: 400px;
+}
+
+.card
+{
+    width: 305px;
+    height: 270px;
+    border: 2px solid red;
+    margin-top: 15px;
+    float: left;
+    margin-left: 15px;
+}
+.card1
+{
+    width: 305px;
+    height: 270px;
+    border: 2px solid red;
+    margin-left: 15px;
+    float: left;
+    margin-top: 15px;
+}
+.card2
+{
+    width: 305px;
+    height: 270px;
+    border: 2px solid red;
+    margin-left: 15px;
+    float: left;
+    margin-top: 15px;
+}
+.card3
+{
+    width: 305px;
+    height: 270px;
+    border: 2px solid red;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.card4
+{
+    width: 305px;
+    height: 270px;
+    border: 2px solid red;
+    margin-left: 15px;
+    float: left;
+    margin-top: 15px;
+}
+.card5
+{
+    width: 305px;
+    height: 270px;
+    border: 2px solid red;
+    margin-left: 15px;
+    float: left;
+    margin-top: 15px;
+}
+.card6
+{
+    width: 305px;
+    height: 270px;
+    border: 2px solid red;
+    margin-left: 15px;
+    float: left;
+    margin-top: 15px;
+}
+.card7
+{
+    width: 305px;
+    height: 270px;
+    border: 2px solid red;
+    margin-left: 15px;
+    float: left;
+    margin-top: 15px;
+}
